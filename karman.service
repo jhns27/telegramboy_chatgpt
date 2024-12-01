@@ -1,0 +1,13 @@
+[Unit]
+Description=Karman Telegram Bot
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/karman.py
+Restart=always
+User=489271584
+WorkingDirectory=/root/telegrambot/telegrambot/gemine
+
+[Install]
+WantedBy=multi-user.target
+

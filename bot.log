@@ -1,0 +1,147 @@
+2024-12-01 19:35:44,659 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:35:54,049 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:36:02,090 - __main__ - INFO - Пользователь ввел IP: 10.39.64.2
+2024-12-01 19:36:02,182 - __main__ - ERROR - Ошибка при получении информации об устройстве: int() argument must be a string, a bytes-like object or a real number, not 'datetime.timedelta'
+2024-12-01 19:36:21,249 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:36:21,249 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:36:21,881 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:36:46,072 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:36:50,713 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:36:56,266 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 19:36:56,422 - __main__ - ERROR - Ошибка при получении информации об устройстве: int() argument must be a string, a bytes-like object or a real number, not 'datetime.timedelta'
+2024-12-01 19:37:21,655 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 19:37:21,807 - __main__ - ERROR - Ошибка при получении информации об устройстве: int() argument must be a string, a bytes-like object or a real number, not 'datetime.timedelta'
+2024-12-01 19:37:43,299 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:37:43,299 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:37:43,472 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:39:04,229 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:39:14,938 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:39:21,498 - __main__ - INFO - Пользователь ввел IP: 10.39.65.52
+2024-12-01 19:39:21,657 - __main__ - ERROR - Ошибка при получении информации об устройстве: int() argument must be a string, a bytes-like object or a real number, not 'datetime.timedelta'
+2024-12-01 19:41:23,496 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:41:23,497 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:41:23,674 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:41:51,525 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:41:56,943 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:42:03,247 - __main__ - INFO - Пользователь ввел IP: 10.39.65.52
+2024-12-01 19:42:03,402 - __main__ - ERROR - Ошибка при получении информации об устройстве: int() argument must be a string, a bytes-like object or a real number, not 'datetime.timedelta'
+2024-12-01 19:42:06,363 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:42:06,363 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:42:06,664 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:42:35,842 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:42:38,274 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:42:40,955 - __main__ - INFO - Пользователь ввел IP: 10.39.65.52
+2024-12-01 19:42:41,117 - __main__ - ERROR - Ошибка при получении информации об устройстве: int() argument must be a string, a bytes-like object or a real number, not 'datetime.timedelta'
+2024-12-01 19:42:43,084 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:42:43,085 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:42:43,585 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:44:54,683 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:44:59,716 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:45:06,899 - __main__ - INFO - Пользователь ввел IP: 10.39.65.52
+2024-12-01 19:45:06,899 - __main__ - ERROR - Ошибка при получении информации об устройстве: invalid literal for int() with base 10: 'iso'
+2024-12-01 19:46:03,197 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:46:03,197 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:46:03,543 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:46:05,373 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:46:07,124 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:46:48,813 - __main__ - INFO - Пользователь ввел IP: 192.168.1.1
+2024-12-01 19:46:48,813 - __main__ - ERROR - Ошибка при получении информации об устройстве: invalid literal for int() with base 10: 'iso'
+2024-12-01 19:48:11,475 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:48:11,475 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:48:11,673 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:49:36,922 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:49:41,550 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:49:48,044 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 19:49:48,044 - __main__ - ERROR - Ошибка при получении информации об устройстве: invalid literal for int() with base 10: 'iso'
+2024-12-01 19:50:07,973 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:50:07,973 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:50:08,158 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:50:54,574 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:50:59,088 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:51:04,849 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 19:51:04,849 - __main__ - ERROR - Ошибка при получении информации об устройстве: invalid literal for int() with base 10: 'iso'
+2024-12-01 19:52:11,115 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:52:11,115 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:52:11,311 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:53:27,803 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:53:31,785 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:53:39,837 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 19:53:39,837 - __main__ - ERROR - Ошибка при получении информации об устройстве: invalid literal for int() with base 10: 'iso'
+2024-12-01 19:55:23,263 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:55:23,263 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:55:23,473 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 19:58:10,967 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 19:58:17,142 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 19:58:22,968 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 19:58:23,121 - __main__ - ERROR - Ошибка при получении информации об устройстве: int() argument must be a string, a bytes-like object or a real number, not 'datetime.timedelta'
+2024-12-01 19:58:31,317 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 19:58:31,317 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 19:58:31,737 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 20:01:46,413 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 20:01:49,683 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 20:01:57,799 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 20:01:57,799 - __main__ - INFO - Пытаемся подключиться к устройству 10.39.65.62 через SNMP...
+2024-12-01 20:01:57,878 - __main__ - INFO - sysName устройства: SIGL-225-SF_UVD_1_
+2024-12-01 20:01:57,959 - __main__ - ERROR - Ошибка при запросе SNMP данных у 10.39.65.62: 'datetime.timedelta' object has no attribute 'startswith'
+2024-12-01 20:02:09,772 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 20:02:09,772 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 20:02:10,510 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 20:04:18,463 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 20:04:21,557 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 20:04:26,566 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 20:04:26,566 - __main__ - INFO - Пытаемся подключиться к устройству 10.39.65.62 через SNMP...
+2024-12-01 20:04:26,646 - __main__ - INFO - sysName устройства: SIGL-225-SF_UVD_1_
+2024-12-01 20:04:26,717 - __main__ - ERROR - Ошибка при запросе SNMP данных у 10.39.65.62: 'datetime.timedelta' object has no attribute 'startswith'
+2024-12-01 20:04:30,400 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 20:04:30,400 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 20:04:30,694 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 20:05:44,474 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 20:05:53,046 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 20:05:55,623 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 20:05:55,623 - __main__ - INFO - Пытаемся подключиться к устройству 10.39.65.62 через SNMP...
+2024-12-01 20:05:55,703 - __main__ - INFO - sysName устройства: SIGL-225-SF_UVD_1_
+2024-12-01 20:05:55,782 - __main__ - ERROR - Ошибка при запросе SNMP данных у 10.39.65.62: name 'datetime' is not defined
+2024-12-01 20:05:58,775 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 20:05:58,775 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 20:05:58,952 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 20:06:50,956 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 20:06:52,221 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 20:06:52,221 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 20:06:52,849 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 20:07:04,203 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 20:07:14,459 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 20:07:16,673 - __main__ - INFO - Пользователь ввел IP: 10.39.65.62
+2024-12-01 20:07:16,674 - __main__ - INFO - Пытаемся подключиться к устройству 10.39.65.62 через SNMP...
+2024-12-01 20:07:16,761 - __main__ - INFO - sysName устройства: SIGL-225-SF_UVD_1_
+2024-12-01 20:07:16,840 - __main__ - INFO - Uptime устройства: 7747733.0 секунд
+2024-12-01 20:08:29,287 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 20:08:29,287 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 20:08:29,493 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 20:09:36,929 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 20:09:41,124 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 20:09:46,153 - __main__ - INFO - Пользователь ввел IP: 10.39.64.15
+2024-12-01 20:09:46,153 - __main__ - INFO - Пытаемся подключиться к устройству 10.39.64.15 через SNMP...
+2024-12-01 20:09:52,159 - __main__ - ERROR - Ошибка при запросе SNMP данных у 10.39.64.15: Max of 3 retries reached
+2024-12-01 20:10:16,651 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 20:10:16,651 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 20:10:16,936 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 20:10:17,937 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 20:10:20,599 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 20:10:27,814 - __main__ - INFO - Пользователь ввел IP: 10.39.64.2
+2024-12-01 20:10:27,814 - __main__ - INFO - Пытаемся подключиться к устройству 10.39.64.2 через SNMP...
+2024-12-01 20:10:27,860 - __main__ - INFO - sysName устройства: SIGL-225-SF_Yurudik-kollej_
+2024-12-01 20:10:27,905 - __main__ - INFO - Uptime устройства: 1076550.9 секунд
+2024-12-01 20:10:27,905 - __main__ - INFO - Время работы устройства: 12 дн. 11 ч. 2 мин. 30 сек.
+2024-12-01 20:12:40,558 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 20:12:40,558 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 20:12:41,005 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-12-01 20:13:14,068 - apscheduler.scheduler - INFO - Scheduler started
+2024-12-01 20:13:17,325 - __main__ - INFO - Пользователь Jahongir.Axmedov запустил бота.
+2024-12-01 20:13:22,213 - __main__ - INFO - Пользователь ввел IP: 10.39.65.2
+2024-12-01 20:13:22,213 - __main__ - INFO - Пытаемся подключиться к устройству 10.39.65.2 через SNMP...
+2024-12-01 20:13:22,294 - __main__ - INFO - sysName устройства: SIGL-227.7-SF_Buyuk-kelajak-5/1_
+2024-12-01 20:13:22,374 - __main__ - INFO - Uptime устройства: 52820.0 секунд
+2024-12-01 20:13:22,374 - __main__ - INFO - Время работы устройства: 0 дн. 14 ч. 40 мин. 20 сек.
+2024-12-01 20:15:40,250 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-12-01 20:15:40,250 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-12-01 20:15:40,598 - telegram.ext.updater - WARNING - Exiting immediately!
