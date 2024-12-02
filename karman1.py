@@ -7,12 +7,12 @@ import puresnmp
 import constant
 import datetime
 import allowed_users
-import constant
-from constant import MO_switchs  # Добавьте эту строку
+
 
 # Проверка, является ли пользователь разрешенным
 def is_allowed_user(user_id):
     return user_id in allowed_users.ALLOWED_USERS
+
 
 # Состояния для обработки
 (MENU, CHECK_DEVICE, CHECK_PORTS) = range(3)
@@ -25,21 +25,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Проверка корректности IP-адреса и принадлежности к сети
-import ipaddress
-
-# Проверка корректности IP-адреса и принадлежности к сети
+# Проверка корректности IP-адреса
 def is_valid_ip(ip):
     try:
-        ip_obj = ipaddress.ip_address(ip)
-        # Проверка принадлежности IP-адреса к одной из указанных сетей
-        for subnet in MO_switchs:
-            if ip_obj in ipaddress.ip_network(subnet, strict=False):
-                return True
-        return False
+        ipaddress.ip_address(ip)
+        return True
     except ValueError:
         return False
-
 
 # Получение модели устройства
 def get_device_model(host):
@@ -123,12 +115,6 @@ def get_port_status(host):
 # Обработчик команды /start
 def start(update, context):
     user = update.message.from_user
-
-    # Проверка разрешенного пользователя
-    if not is_allowed_user(user.id):
-        update.message.reply_text("У вас нет доступа к этому боту.")
-        return ConversationHandler.END
-
     reply_keyboard = [["💥 Проверить устройство"]]
     update.message.reply_text(
         f"✌ Добро пожаловать, {user.full_name}! Выберите действие.",
@@ -136,17 +122,11 @@ def start(update, context):
     )
     return MENU
 
-# Обработчик команды /reset
-def reset(update, context):
-    context.user_data.clear()
-    update.message.reply_text("Сброс выполнен. Введите IP-адрес нового устройства:", reply_markup=ReplyKeyboardRemove())
-    return CHECK_DEVICE
-
 # Обработчик проверки устройства
 def check_device(update, context):
     host = update.message.text.strip()
     if not is_valid_ip(host):
-        update.message.reply_text("Некорректный IP-адрес или IP-адрес не принадлежит разрешенной сети. Попробуйте снова.")
+        update.message.reply_text("Некорректный IP-адрес. Попробуйте снова.")
         return CHECK_DEVICE
 
     logger.info(f"Пользователь ввел IP: {host}")
@@ -193,7 +173,9 @@ def menu(update, context):
         return MENU
 
     elif "Сброс" in message:
-        return reset(update, context)
+        context.user_data.clear()
+        update.message.reply_text("Введите IP-адрес нового устройства:")
+        return CHECK_DEVICE
 
     update.message.reply_text("Команда не распознана. Попробуйте снова.")
     return MENU
@@ -209,10 +191,7 @@ def main():
             MENU: [MessageHandler(Filters.text & ~Filters.command, menu)],
             CHECK_DEVICE: [MessageHandler(Filters.text & ~Filters.command, check_device)],
         },
-        fallbacks=[
-            CommandHandler("cancel", lambda update, context: update.message.reply_text("Прощайте!")),
-            CommandHandler("reset", reset),  # Добавляем команду /reset в обработчик
-        ],
+        fallbacks=[CommandHandler("cancel", lambda update, context: update.message.reply_text("Прощайте!"))],
     )
 
     dp.add_handler(conv_handler)
